@@ -29,7 +29,7 @@
 
 ## Development
 
-  [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)为完整程序入口，其中包括：
+&emsp;&emsp; [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)为完整程序入口，其中包括：
 
 - 1 [initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)用来开始程序并初始化路径；
 
