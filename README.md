@@ -1,10 +1,9 @@
 <h1  align="center">Video Sorter</h1>
 
+
+![](https://img.shields.io/badge/python-v3.10-blue)![](https://img.shields.io/badge/PyQt-v6-yellowgreen)![PyPI - License](https://img.shields.io/badge/license-GPL-blue)[![](https://img.shields.io/badge/download-82M-brightgreen)](https://github.com/PanZK/videoSorter/releases)
+
 <p align="center">Video Sorter 是一个用Python3编写的视频分拣工具。</p>
-
-![Python](https://img.shields.io/badge/Python-3.10-bule.svg)
-
-[![Downloads](http://pepy.tech/badge/videoSorter)](http://pepy.tech/project/videoSorter)
 
 ---
 
