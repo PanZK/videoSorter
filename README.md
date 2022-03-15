@@ -2,6 +2,8 @@
 
 <p align="center">Video Sorter 是一个用Python3编写的视频分拣工具。</p>
 
+[](https://img.shields.io/badge/{Python}-{3.10}-{bule}.svg)
+
 ---
 
 ## Origin
