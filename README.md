@@ -1,8 +1,8 @@
 <h1  align="center">Video Sorter</h1>
 
-<p align="center">Video Sorter 是一个用Python编写的视频分拣工具。</p>
+<p align="center"><br>Video Sorter 是一个用Python编写的视频分拣工具。</p>
 
-![](https://img.shields.io/badge/python-v3.10-blue)&ensp;![](https://img.shields.io/badge/PyQt-v6-yellowgreen)&ensp;![PyPI - License](https://img.shields.io/badge/license-GPL-blue)&ensp;[![download](https://img.shields.io/badge/download-82M-brightgreen)](https://github.com/PanZK/videoSorter/releases)
+&emsp;&emsp;![](https://img.shields.io/badge/python-v3.10-blue)&ensp;![](https://img.shields.io/badge/PyQt-v6-yellowgreen)&ensp;![PyPI - License](https://img.shields.io/badge/license-GPL-blue)&ensp;[![download](https://img.shields.io/badge/download-82M-brightgreen)](https://github.com/PanZK/videoSorter/releases)
 
 ---
 
@@ -29,8 +29,13 @@
 
 ## Development
 
-- [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)为完整程序入口，其中包括：[initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)用来开始程序并初始化路径、
-- 
+[videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)为完整程序入口，其中包括：
+
+- [initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)用来开始程序并初始化路径；
+- 通过[initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)得到的路径，建立[videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序，其中：
+  - [videoPlayerWidget.py](https://github.com/PanZK/videoSorter/blob/main/videoPlayerWidget.py)为使用[opencv-python](https://github.com/opencv/opencv-python)视频渲染部分；
+  - [obtainPaths.py](https://github.com/PanZK/videoSorter/blob/main/obtainPaths.py)为路径及文件名等操作部分；
+- [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序完成或退出后，将命令保存列表交给[executeCmdWidget.py](https://github.com/PanZK/videoSorter/blob/main/executeCmdWidget.py)执行
 
 ---
 
