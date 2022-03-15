@@ -30,15 +30,15 @@
 ## Development
 
 + [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)为完整程序入口，其中包括：
-  - 1. [initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)用来开始程序并初始化路径；
+  1.[initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)用来开始程序并初始化路径；
 
-  - 2. 通过[initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)得到的路径，建立[videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序，其中：
+  2.通过[initialPathWidget.py](https://github.com/PanZK/videoSorter/blob/main/initialPathWidget.py)得到的路径，建立[videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序，其中：
 
-    - 2. 1. [videoPlayerWidget.py](https://github.com/PanZK/videoSorter/blob/main/videoPlayerWidget.py)为使用[opencv-python](https://github.com/opencv/opencv-python)视频渲染部分；
+    2.1.[videoPlayerWidget.py](https://github.com/PanZK/videoSorter/blob/main/videoPlayerWidget.py)为使用[opencv-python](https://github.com/opencv/opencv-python)视频渲染部分；
 
-    - 2. 2. [obtainPaths.py](https://github.com/PanZK/videoSorter/blob/main/obtainPaths.py)为路径及文件名等操作部分；
+    2.2.[obtainPaths.py](https://github.com/PanZK/videoSorter/blob/main/obtainPaths.py)为路径及文件名等操作部分；
 
-  - 3. [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序完成或退出后，将命令保存列表交给[executeCmdWidget.py](https://github.com/PanZK/videoSorter/blob/main/executeCmdWidget.py)执行
+  3. [videoSorter.py](https://github.com/PanZK/videoSorter/blob/main/videoSorter.py)主程序完成或退出后，将命令保存列表交给[executeCmdWidget.py](https://github.com/PanZK/videoSorter/blob/main/executeCmdWidget.py)执行
 
 ---
 
