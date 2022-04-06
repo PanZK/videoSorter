@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
 @Time    :   2022/03/10 00:53:34
@@ -44,12 +44,12 @@ class ObtainPaths():
             return -1
         else:
             return exceptFilesDirList
-
+    
     def pathAppend(self, dir):              #根据每次选择目录不同，追加相应子目录
         self.savePath = self.savePath + '/' + dir
         # print('obt %s' % self.savePath)
         return self.savePath
-
+    
     #一个视频完成后，将保存目录还原
     def pathRestore(self):
         self.savePath = self.targetPath
@@ -59,7 +59,7 @@ class ObtainPaths():
         (filepath, fileName) = os.path.split(path)
         self.fileName = fileName
         return fileName
-
+    
     #返回保存路径
     def getSavePath(self):
         return self.savePath
@@ -67,13 +67,13 @@ class ObtainPaths():
     #返回命令列表
     def getCmdList(self):
         return self.commandList
-
+    
     def getShellCommand(self):
         command = 'mv "%s/%s" "%s"' % (self.sourcePath, self.fileName, self.savePath)
         #将生成好的命令添加在命令列表中
         self.commandList.append(command)
         return command
-
+    
     #获取下一个视频文件名
     def getNextVideo(self):
         #self.pointer作为指针，当指针未越界时：
