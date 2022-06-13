@@ -1,0 +1,1 @@
+pyinstaller --windowed --onefile --clean --noconfirm videoSorter.py --icon=static/icon.png

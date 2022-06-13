@@ -5,7 +5,7 @@
 @File    :   videoSorter.py
 @Software:   VSCode
 @Author  :   PPPPAN 
-@Version :   1.0
+@Version :   1.1
 @Contact :   for_freedom_x64@live.com
 '''
 

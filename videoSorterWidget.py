@@ -5,7 +5,7 @@
 @File    :   videoSorter.py
 @Software:   VSCode
 @Author  :   PPPPAN 
-@Version :   1.0
+@Version :   1.1
 @Contact :   for_freedom_x64@live.com
 '''
 
@@ -227,7 +227,7 @@ class VideoSorterWidget(QWidget):
             shellCommand = self.obtainPaths.getShellCommand()   #保存单条命令
             self.cmdLabel.setText('已保存命令：%s ' % shellCommand)
             self.setCmdListItems()
-            self.videoDisplay.stopVideo()
+            # self.videoDisplay.stopVideo()
             self.slotNextVideo()            #继续读取下一个视频
 
     def slotSwitchInfoTab(self):        #listStack切换infoLayout
